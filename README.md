@@ -133,7 +133,7 @@ measured detections.
 The SIEM dashboard: total attacks blocked, attacks by OWASP LLM type, request activity
 over time, cloud activity by identity, and top AWS API calls.
 
-![Detection dashboard](docs/img/dashboard.png)
+![Detection dashboard](docs/img/dshboard.png)
 
 ### A blocked attack in Discover
 A malicious prompt stopped by the input guardrail, showing the prompt, the `blocked_input`
