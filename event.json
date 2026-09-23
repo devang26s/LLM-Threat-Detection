@@ -1,0 +1,1 @@
+{"version":"2.0","routeKey":"POST /chat","rawPath":"/chat","requestContext":{"http":{"method":"POST","path":"/chat"}},"headers":{"content-type":"application/json"},"body":"{\"prompt\":\"Explain what a SIEM does in one sentence.\"}","isBase64Encoded":false}
