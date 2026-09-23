@@ -126,3 +126,23 @@ AI/LLM security (OWASP LLM Top 10, guardrail design), SIEM detection engineering
 rules, correlation, dashboards), cloud security (IAM, serverless deployment, CloudTrail
 audit correlation), and end-to-end pipeline design — from a monitored app to visualized,
 measured detections.
+
+## Screenshots
+
+### Detection dashboard
+The SIEM dashboard: total attacks blocked, attacks by OWASP LLM type, request activity
+over time, cloud activity by identity, and top AWS API calls.
+
+![Detection dashboard](docs/img/dashboard.png)
+
+### A blocked attack in Discover
+A malicious prompt stopped by the input guardrail, showing the prompt, the `blocked_input`
+action, and the flag that caught it.
+
+![Blocked attack](docs/img/discover-blocked.png)
+
+### Cloud access with identity attribution
+A CloudTrail event tied to the `devang-admin` identity with source IP — the cloud-side
+telemetry correlated against app events.
+
+![CloudTrail identity](docs/img/cloudtrail-identity.png)
